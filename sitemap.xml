@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  
+  <!-- Página inicial -->
+  <url>
+    <loc>https://xn--mkespaoteraputico-fsb7d.com.br/</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://xn--mkespaoteraputico-fsb7d.com.br/assets/img/logo-mk.jpg</image:loc>
+      <image:title>MK Espaço Terapêutico Logo</image:title>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Seção de Serviços -->
+  <url>
+    <loc>https://xn--mkespaoteraputico-fsb7d.com.br/#servicos</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Seção de História -->
+  <url>
+    <loc>https://xn--mkespaoteraputico-fsb7d.com.br/#historia</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Seção de Visão -->
+  <url>
+    <loc>https://xn--mkespaoteraputico-fsb7d.com.br/#visao</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Seção de Agendamento -->
+  <url>
+    <loc>https://xn--mkespaoteraputico-fsb7d.com.br/#agendamento</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Seção de Blog -->
+  <url>
+    <loc>https://xn--mkespaoteraputico-fsb7d.com.br/#blog</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Seção de Contato -->
+  <url>
+    <loc>https://xn--mkespaoteraputico-fsb7d.com.br/#contato</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+
+</urlset>

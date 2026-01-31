@@ -1,0 +1,30 @@
+# Robots.txt para MK Espaço Terapêutico
+# Última atualização: 2026-01-20
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Configurações específicas para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Configurações específicas para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Bloquear bots ruins
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://xn--mkespaoteraputico-fsb7d.com.br/sitemap.xml

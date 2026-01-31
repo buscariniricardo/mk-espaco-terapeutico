@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK Espaço Terapêutico | Equilíbrio para Corpo, Mente e Espírito</title>
+  <meta name="description" content="Terapias holísticas em Piracicaba para equilíbrio de corpo, mente e espírito: aromaterapia, radiestesia, harmonização de chakras, cone hindu, magnetoterapia, ventosaterapia, pranayama, meditação e mais.">
+  <meta name="keywords" content="terapias holísticas, aromaterapia, radiestesia, chakras, shiatsu, meditação, bem-estar, Piracicaba">
+  <meta name="author" content="Andrea Yamaguchi - MK Espaço Terapêutico">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="7 days">
+  <link rel="canonical" href="https://xn--mkespaoteraputico-fsb7d.com.br">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="MK Espaço Terapêutico | Equilíbrio para Corpo, Mente e Espírito">
+  <meta property="og:description" content="Agende terapias holísticas para o seu bem-estar integral. Aromaterapia, Radiestesia, Harmonização de Chakras, Shiatsu, Meditação e mais.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xn--mkespaoteraputico-fsb7d.com.br">
+  <meta property="og:image" content="https://xn--mkespaoteraputico-fsb7d.com.br/assets/img/logo-mk.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MK Espaço Terapêutico">
+  <meta name="twitter:description" content="Terapias holísticas para equilíbrio de corpo, mente e espírito">
+  <meta name="twitter:image" content="https://xn--mkespaoteraputico-fsb7d.com.br/assets/img/logo-mk.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4A7863">
+
+  <!-- Preload crítico -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Merriweather:wght@300;400&display=swap" as="style">
+  <link rel="preload" href="assets/css/style.css" as="style">
+  
+  <!-- Fonts e Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-DTOQO6CSZTM56LtnkP07OU+sSzl/ribnqIDiQQf6p+gvCFZtYw2d+e0fDn2tEw8I7q7PbkstToZeV+v1SGayZg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container header-container">
+      <a href="#inicio" class="logo" aria-label="MK Espaço Terapêutico - Voltar ao início">
+        <div class="logo-icon">
+          <img src="assets/img/logo-mk.jpg" alt="Logo MK Espaço Terapêutico - Terapias Holísticas em Piracicaba" width="52" height="52">
+        </div>
+        <div class="logo-text">
+          MK <span>Espaço Terapêutico</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navMenu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Navegação principal">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#historia" class="nav-link">História</a>
+        <a href="#visao" class="nav-link">Visão</a>
+        <a href="#agendamento" class="nav-link">Agendamento</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="container hero-content">
+        <h1>Equilíbrio para corpo, mente e espírito</h1>
+        <p>Um espaço acolhedor e dedicado a terapias holísticas, autocuidado e reconexão com você mesma(o).</p>
+        <div class="hero-buttons">
+          <a href="#servicos" class="btn btn-primary">Conhecer terapias</a>
+          <button class="btn btn-secondary" onclick="openWhatsApp('Olá, gostaria de agendar uma sessão.')">
+            Agendar pelo WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Terapias disponíveis</h2>
+          <p>Serviços presenciais e energéticos para apoiar diferentes momentos da sua jornada.</p>
+        </div>
+        <div id="servicesGrid" class="services-grid"></div>
+      </div>
+    </section>
+
+    <!-- História -->
+    <section id="historia" class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>História</h2>
+          <p>Um caminho que se revelou como propósito de vida.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Sou <strong>Andrea Yamaguchi</strong> e, há alguns anos, de forma natural e profunda, a vida me conduziu ao caminho das terapias holísticas.</p>
+            <p>Esse chamado não surgiu de um plano, mas de uma compreensão clara de que essa era — e sempre foi — a minha trajetória e missão de vida.</p>
+            <p>Ao longo dessa jornada, busquei formação e aprofundamento em diversas terapias integrativas, reconhecidas por sua eficácia no cuidado do corpo, da mente e das emoções.</p>
+            <p>O trabalho desenvolvido é fundamentado no respeito absoluto aos tratamentos médicos convencionais, entendendo que a saúde verdadeira nasce da integração entre ciência, conhecimento ancestral e escuta sensível do ser humano.</p>
+            <p>As terapias holísticas atuam de forma complementar, oferecendo alternativas naturais para o alívio de dores, desequilíbrios emocionais e processos de adoecimento, sempre considerando o indivíduo de maneira integral — corpo, mente e energia.</p>
+            <p>Cada atendimento é conduzido com responsabilidade, sensibilidade e propósito, respeitando o tempo, a história e as necessidades únicas de cada pessoa.</p>
+          </div>
+
+          <div class="about-highlight">
+            <h3>Como os atendimentos acontecem</h3>
+            <p>Cada sessão é acolhida como um encontro único, em que você é convidada(o) a desacelerar, respirar e se escutar com mais presença.</p>
+            <p>As terapias são escolhidas e combinadas de forma personalizada, sempre em diálogo com o que você já vive em termos de cuidados médicos e de rotina.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visão -->
+    <section id="visao" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Visão</h2>
+          <p>Saúde como equilíbrio entre corpo, mente e energia vital.</p>
+        </div>
+
+        <div class="vision-grid">
+          <div class="vision-main">
+            <p>Acredito que a saúde vai além da ausência de sintomas. Ela nasce do equilíbrio entre corpo, mente e energia vital.</p>
+            <p>No MK Espaço Terapêutico, a visão é oferecer um cuidado humano, consciente e integrativo, unindo saberes milenares orientais — que compreendem o fluxo energético, os bloqueios emocionais e a relação entre órgãos e emoções — com uma abordagem responsável, respeitosa e alinhada à medicina moderna.</p>
+            <p>Cada terapia é pensada para estimular os mecanismos naturais de autorregulação do corpo, promovendo bem-estar, clareza mental, relaxamento profundo e suporte nos processos físicos e emocionais.</p>
+            <p>Mais do que tratar sintomas, o objetivo é cuidar da causa, reconhecendo que os estados emocionais, energéticos e vibracionais influenciam diretamente na saúde.</p>
+            <p>Acolher a pessoa em sua totalidade é contribuir para uma vida com mais equilíbrio, consciência e qualidade.</p>
+          </div>
+
+          <div class="vision-pillars">
+            <h3>Pilares desse cuidado</h3>
+            <ul>
+              <li>Cuidado complementar e alinhado aos tratamentos médicos.</li>
+              <li>Integração entre conhecimento ancestral e visão contemporânea de saúde.</li>
+              <li>Respeito ao ritmo, à história e às escolhas de cada pessoa.</li>
+              <li>Promoção de bem-estar físico, emocional, energético e espiritual.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agendamento -->
+    <section id="agendamento" class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Agendamento</h2>
+          <p>Você escolhe a terapia e combinamos o melhor dia e horário pelo WhatsApp.</p>
+        </div>
+
+        <div class="booking-card">
+          <form id="bookingForm">
+            <div class="form-group">
+              <label for="bookingName">Nome completo</label>
+              <input type="text" id="bookingName" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingService">Terapia de interesse</label>
+              <select id="bookingService" class="form-control" required>
+                <option value="">Selecione uma terapia</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="bookingMessage">Mensagem (opcional)</label>
+              <textarea id="bookingMessage" class="form-control" rows="4" placeholder="Conte brevemente seu momento ou preferências de dia/horário."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Enviar pedido de agendamento</button>
+            <p id="bookingFeedback" class="form-feedback"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Blog de bem-estar</h2>
+          <p>Reflexões e conteúdos para apoiar o seu autocuidado.</p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-icon">🌿</div>
+            <h3>Aromas que acolhem</h3>
+            <p>Como usar óleos essenciais em pequenos rituais que convidam ao descanso e à presença.</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-icon">🌀</div>
+            <h3>Energia em movimento</h3>
+            <p>Quando o corpo sinaliza, as terapias corporais e energéticas podem ser um convite para desacelerar.</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-icon">🌬️</div>
+            <h3>Respirar com intenção</h3>
+            <p>Pranayama e meditação como aliados no manejo da ansiedade e da mente acelerada.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-title">
+            <h2>Contato</h2>
+            <p>Vamos conversar sobre a melhor forma de te apoiar.</p>
+          </div>
+          <p><i class="fas fa-map-marker-alt"></i> Piracicaba, SP – atendimentos com horário agendado.</p>
+          <p><i class="fab fa-whatsapp"></i> (19) 99575-9720</p>
+          <p><i class="fas fa-envelope"></i> mk.y.espacoterapeutico@gmail.com</p>
+          <button class="btn btn-primary" onclick="openWhatsApp('Olá, gostaria de mais informações sobre as terapias.')">
+            Falar no WhatsApp
+          </button>
+        </div>
+
+        <div class="contact-card">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="contactName">Nome</label>
+              <input type="text" id="contactName" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">E-mail</label>
+              <input type="email" id="contactEmail" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Mensagem</label>
+              <textarea id="contactMessage" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary" style="width:100%;">Enviar mensagem</button>
+            <p id="contactFeedback" class="form-feedback"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal detalhes da terapia -->
+  <div id="therapyModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" data-close-modal="#therapyModal">&times;</span>
+      <div id="therapyModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; <span id="currentYear"></span> MK Espaço Terapêutico. Todos os direitos reservados.</p>
+      <div class="footer-social">
+        <a href="https://wa.me/5519995759720" target="_blank" rel="noopener" aria-label="WhatsApp MK Espaço Terapêutico">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/mk.espacoterapeutico" target="_blank" rel="noopener" aria-label="Instagram MK Espaço Terapêutico - @MK.ESPACOTERAPEUTICO">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
