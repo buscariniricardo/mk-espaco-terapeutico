@@ -1,0 +1,59 @@
+{
+  "name": "MK Espaço Terapêutico",
+  "short_name": "MK Terapêutico",
+  "description": "Terapias holísticas para equilíbrio de corpo, mente e espírito em Piracicaba",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#4A7863",
+  "background_color": "#F8F9FA",
+  "icons": [
+    {
+      "src": "assets/img/favicon.ico",
+      "sizes": "16x16 32x32 64x64 128x128 256x256",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/img/apple-touch-icon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/img/logo-mk.jpg",
+      "sizes": "540x720",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["health", "wellness"],
+  "shortcuts": [
+    {
+      "name": "Agendar Terapia",
+      "short_name": "Agendar",
+      "description": "Agende sua terapia favorita",
+      "url": "/#agendamento",
+      "icons": [
+        {
+          "src": "assets/img/favicon.ico",
+          "sizes": "256x256"
+        }
+      ]
+    },
+    {
+      "name": "Ver Serviços",
+      "short_name": "Serviços",
+      "description": "Conheça todas as terapias disponíveis",
+      "url": "/#servicos",
+      "icons": [
+        {
+          "src": "assets/img/favicon.ico",
+          "sizes": "256x256"
+        }
+      ]
+    }
+  ]
+}
