@@ -16,7 +16,7 @@ const baseTherapies = [
     image: "assets/img/aromaterapia.jpg",
     short: "Óleos essenciais para equilíbrio físico, emocional e energético.",
     description:
-      "Utilizamos óleos essenciais puros para estimular as respostas físicas, emocionais e energéticas do corpo. Cada aroma foi cuidadosamente selecionado para proporcionar benefícios específicos.",
+      "Utilizamos óleos essenciais puros para estimular as respostas físicas, emocionais e energéticas do corpo e mente. Cada aroma é cuidadosamente selecionado para proporcionar benefícios específicos.",
     duration: "60 minutos",
     price: "¥ 4,500",
   },
@@ -33,12 +33,12 @@ const baseTherapies = [
   },
   {
     id: 3,
-    name: "Harmonização de Chakras com Cristais (presencial)",
+    name: "Harmonização de Chakras com Cristais (presencial ou a distância)",
     icon: "fas fa-yin-yang",
     image: "assets/img/harmonizacao-chakras-cristais.jpg",
     short: "Equilíbrio dos centros energéticos com o apoio de cristais.",
     description:
-      "Equilíbrio dos sete centros energéticos principais do corpo para promover saúde integral, vitalidade e conexão espiritual.",
+      "Equilíbrio dos centros energéticos do corpo para promover saúde integral, vitalidade e conexão emocional e espiritual.",
     duration: "60 minutos",
     price: "¥ 3,600",
   },
@@ -84,10 +84,10 @@ const extraTherapies = [
     name: "Cone Hindu / Chinês",
     icon: "fas fa-fire",
     image: "assets/img/cone-hindu.jpg",
-    short: "Terapia energética para limpeza auricular e equilíbrio.",
+    short: "Terapia ancestral energética para limpeza e equilíbrio.",
     description:
-      "O Cone Hindu é uma técnica natural que auxilia na limpeza energética, alívio de desconfortos e sensação de leveza na região da cabeça.",
-    duration: "Aplicação",
+      "O Cone Hindu é uma técnica ancestral natural que auxilia na limpeza energética auricular, promovendo alívio em casos de renite, sinuzite, labirintite bem como auxiliando em outras situações como: cólicas, dores de cabeça etc...",
+    duration: "Aplicação até 3 cones",
     price: "¥ 2,700",
   },
   {
